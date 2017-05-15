@@ -1,0 +1,1 @@
+This module is intended to detect WannaCry vulnerabilities on your machine.
