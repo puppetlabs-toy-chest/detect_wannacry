@@ -1,0 +1,24 @@
+{
+  "name": "puppetlabs-detect_wannacry",
+  "version": "0.1.0",
+  "author": "puppetlabs",
+  "summary": "This module is intended to detect WannaCry vulnerabilities on your machine.",
+  "license": "Apache-2.0",
+  "source": "https://github.com/puppetlabs/detect_wannacry",
+  "project_page": "https://github.com/puppetlabs/detect_wannacry",
+  "issues_url": "https://github.com/puppetlabs/detect_wannacry/issues",
+  "dependencies": [
+  ],
+  "data_provider": null,
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "windows",
+      "operatingsystemrelease": [
+        "2008",
+        "2008R2",
+        "2012",
+        "2012R2"
+      ]
+    }
+  ]
+}
