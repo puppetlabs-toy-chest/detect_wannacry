@@ -27,7 +27,7 @@ if ($wu = New-Object -ComObject Microsoft.Update.Searcher)
     $KB = $string | Select-String -Pattern $regex | Select-Object { $_.Matches }
 
     $output = New-Object -TypeName PSobject
-    $output | add-member NoteProperty "HotFixID" -value $KB.‘ $_.Matches ‘.Value
+    $output | add-member NoteProperty "HotFixID" -value $KB.' $_.Matches '.Value
     $output | add-member NoteProperty "Title" -value $string
     $UpdateCollection += $output
   }
