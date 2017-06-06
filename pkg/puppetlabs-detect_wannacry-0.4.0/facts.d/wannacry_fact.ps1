@@ -1,5 +1,3 @@
-#!/bin/false
-
 # Reference: https://community.spiceworks.com/topic/1994651-check-for-missing-wannacry-patches-with-powershell
 
 # List of patches that remediate WannaCry
