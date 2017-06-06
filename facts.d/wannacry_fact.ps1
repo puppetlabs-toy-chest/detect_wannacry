@@ -53,7 +53,7 @@ if ($hotfixList)
 
 # Output vulnerability fact about this machine
 if($patch) {
-  Write-Output "wannacry_vulnerable=false"
+  Write-Host "wannacry_vulnerable=false"
 } else {
-  Write-Output "wannacry_vulnerable=true"
+  Write-Host "wannacry_vulnerable=true"
 }
