@@ -5,7 +5,7 @@ Function Manual-Check
   # Reference: https://community.spiceworks.com/topic/1994651-check-for-missing-wannacry-patches-with-powershell
 
   # List of patches that remediate WannaCry
-  $patches = "KB4013429","KB4012606","KB4013198","KB4018466","KB4012598","KB4012212","KB4012215","KB4012213","KB4012216","KB4012214","KB4012217","KB4016871", "KB4019472", "KB4019213", "KB4019217", "KB4019264"
+  $patches = "KB4013429","KB4012606","KB4013198","KB4018466","KB4012598","KB4012212","KB4012215","KB4012213","KB4012216","KB4012214","KB4012217","KB4016871", "KB4019472", "KB4019213", "KB4019217", "KB4019264", "KB4022715"
   $computer = $ENV:COMPUTERNAME
 
   # Define a new array to gather output
